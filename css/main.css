@@ -1,4 +1,97 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(#F5F5F5,#D3D3D3);
+}
+
+h2, p, .readme-wrapper, #title {
+    text-align: center;
+}
+a {
+    color:#ff7f50;
+    text-decoration: none;
+}
+
+a:hover{
+    color:	#52ffd4;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+span{
+    color: 	#a852ff;
+    font-weight: bold;
+
+}
+
+.boxes{
+    display: block;
+    width: 20%;
+    margin: 1rem;
+    padding: 1rem;
+    border-style: 1rem solid #ff7f50;
+    background-color: #ffece6;
+    border-radius: 2.5rem;
+}
+
+#box1{
+    background-color: #ff7f50;
+}
+
+#box2{
+   background-color: #52ffd4;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+.image{
+    width: 100px;
+    height: 75px;
+    background-color: darkgreen;
+    display: inline-block;
+}
+
+.style{
+    color: blue;
+}
+
+.style2{
+    color: #a852ff;
+}
+
+h1{
+    color: #ff7f50;
+
+}
+
+#rank1{
+    color: #222;
+}
+
+#rank2{
+    color: #D3D3D3;
+}
+
+#rank3{
+    color: #ff7f50;
+}
+
+#rank4{
+    color: aquamarine;
+}
+
+#rank5{
+    color: burlywood
+}
+
+.lists{
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+}
 
 html {
     color: #222;
